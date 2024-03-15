@@ -1,0 +1,17 @@
+
+server:
+  port: 8000
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.54e982b01e3e269d
+            client-secret: 8b8b00cfb880c683939fc761a7e123044ec3aeb3
+            provider: github
+
+          facebook:
+            client-id: 398110099619238
+            client-secret: f2342df383d9d201f645dbdf4c182865
+            provider: facebook
